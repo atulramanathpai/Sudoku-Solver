@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr, td {
+  border: 1px solid black;
+}
+
+tr, input {
+  height: 50px;
+}
+
+td, input {
+  width: 50px;
+}
+
+.borderleft {
+  border-left: 2px solid black;
+}
+
+.bordertop {
+  border-top: 2px solid black;
+}
+
+input {
+  border: none;
+  font-size: 40px;
+  text-align: center;
+}
+
+.solved {
+  color: blue;
+}
